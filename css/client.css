@@ -1,0 +1,217 @@
+* {
+      -moz-box-sizing: border-box; /* Firexfox */
+      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+      box-sizing: border-box; /* IE */
+ }
+header, section, footer{
+/* border: 1px solid black; */
+  width: 100%;
+}
+footer{
+  clear: both;
+  background-color: black;
+  display: block;
+  height: 200px;
+}
+section button{
+  float: left;
+  margin-left: 35%;
+}
+header{
+  background-color: #8499B1;
+}
+h1, p, h3, h2{
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+button{
+  border: 1px solid grey;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+nav ul li{
+  list-style: none;
+}
+.hero{
+  float: left;
+  width: 100%;
+  background-color: #8499B1;
+}
+.topSec{
+  float: left;
+  width: 100%;
+}
+.middleSec{
+  float: left;
+  width: 100%;
+  background-color: #bebfc1;
+}
+.bottomSec{
+  float: left;
+  width: 100%;
+}
+.hero-main{
+  width: 70%;
+  float: left;
+  margin-left: 15%;
+  color: white;
+  padding: 10%;
+}
+.whySec{
+  width: 50%;
+  float: left;
+  margin-left: 25%;
+  padding: 4%;
+}
+.twoIcons{
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  padding: 10%;
+
+}
+.final{
+  width: 50%;
+  float: left;
+  margin-left: 25%;
+  padding: 5%;
+}
+.leftSec{
+  float: left;
+  width: 45%;
+  border:none;
+  margin-left: 45px;
+  text-align: center;
+  padding-right: 3%;
+
+
+
+}
+.rightSec{
+  float: left;
+  width: 45%;
+  border: none;
+  margin-left: 0px;
+  text-align: center;
+  padding-left: 3%;
+
+}
+.hero h1, p, h4{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.hero h1{
+  font-size: 40px;
+}
+.topSec h2, p{
+  text-align: center;
+}
+.middleSec img, h3, p{
+  text-align: center;
+}
+.bottomSec h2, p{
+  text-align: center;
+}
+.lastLeft{
+  width: 25%;
+  float: left;
+  color: grey;
+  margin-left: 100px;
+
+}
+.lastLeft h5{
+  margin-bottom: 0;
+}
+.lastLeft h5, address{
+  font-size: 15px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.lastright{
+  width: 25%;
+  float: right;
+  color: grey;
+}
+.lastright h5, address{
+  color: #ffffff;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+{
+  display: inline-block;
+  float: left;
+}
+
+#logo, #classes, #hire{
+  width: 5%;
+  float: left;
+  color: white;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+#logo{
+  margin-left: 28%;
+  height: 40px;
+
+}
+#donate{
+  float: right;
+  margin-right: 3%;
+  padding: 1em;
+  font-size: 11px;
+  background-color: white;
+  color: lightblue;
+}
+#hire{
+  margin-left: 35px;
+  width: 10%;
+}
+#line{
+  display: block;
+  width: 80%;
+  border-bottom: 1px solid grey;
+  height: 170px;
+  margin-left: 10%;
+}
+@media only screen and (max-width: 700px){
+  footer{
+    display: none;
+  }
+  div{
+    width: 100%;
+    text-align: center;
+  }
+  button{
+    display: none;
+  }
+  .bottomSec{
+    display: none;
+  }
+  p{
+    font-size: 10px;
+  }
+  .hero h1{
+    font-size: 20px;
+  }
+  header{
+    font-size: 10px;
+  }
+  .leftSec, .rightSec{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .leftSec{
+    margin-bottom: 40px;
+  }
+}
